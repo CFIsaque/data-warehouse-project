@@ -1,0 +1,36 @@
+CREATE OR REPLACE TABLE bronze.crm_customer_info(
+  cst_id STRING,
+  cst_firstname STRING,
+  cst_lastname STRING,
+  cst_material_status STRING,
+  cst_gndr STRING,
+  cst_create_date STRING
+);
+
+CREATE OR REPLACE TABLE bronze.crm_prd_info(
+  prd_id       STRING,
+  prd_key      STRING,
+  prd_nm       STRING,
+  prd_cost     INT64,
+  prd_line     STRING,
+  prd_start_dt DATETIME,
+  prd_end_dt   DATETIME
+);
+
+CREATE OR REPLACE TABLE bronze.erp_loc_a101 (
+  cid STRING,
+  cntry STRING 
+);
+
+CREATE OR REPLACE TABLE bronze.erp_cust_az12 (
+  cid STRING,
+  bdate DATE,
+  gen STRING 
+);
+
+CREATE OR REPLACE TABLE bronze.erp_px_cat_g1v2 (
+  id STRING,
+  cat STRING,
+  subcat STRING,
+  maintenance STRING 
+);
