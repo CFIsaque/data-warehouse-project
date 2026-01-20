@@ -17,6 +17,18 @@ CREATE OR REPLACE TABLE bronze.crm_prd_info(
   prd_end_dt   DATETIME
 );
 
+CREATE OR REPLACE TABLE bronze.crm_sales_details(
+  sls_ord_num  STRING,
+  sls_prd_key  STRING,
+  sls_cust_id  STRING,
+  sls_order_dt INT64,
+  sls_ship_dt  INT64,
+  sls_due_dt   INT64,
+  sls_sales    INT64,
+  sls_quantity INT64,
+  sls_price    INT64
+);
+
 CREATE OR REPLACE TABLE bronze.erp_loc_a101 (
   cid STRING,
   cntry STRING 
@@ -34,3 +46,4 @@ CREATE OR REPLACE TABLE bronze.erp_px_cat_g1v2 (
   subcat STRING,
   maintenance STRING 
 );
+
