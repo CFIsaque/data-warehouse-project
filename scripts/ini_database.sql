@@ -6,12 +6,12 @@ OPTIONS (
 );
 
 --Prata
-CREATE SCHEMA IF NOT EXISTS prata
+CREATE SCHEMA IF NOT EXISTS silver
 OPTIONS (
   location = "US"
 );
 
-CREATE SCHEMA IF NOT EXISTS ouro
+CREATE SCHEMA IF NOT EXISTS gold
 OPTIONS (
   location = "US"
 );
