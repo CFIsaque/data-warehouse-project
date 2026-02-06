@@ -22,7 +22,7 @@ This project involves:
 2. **ETL Pipelines**: Extracting, transforming and loading data from source systems into the warehouse.
 <img width="1170" height="770" alt="image" src="https://github.com/user-attachments/assets/4b7f0579-d600-42e6-ad59-8ae53638c78a" />
 
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries. The modeling relationship used is **many to one**. 
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries. The modeling relationship used is **many to one**. To support the analytical teams, there a catalog of datasets, including field descriptions and metadata.
 <img width="1074" height="601" alt="image" src="https://github.com/user-attachments/assets/c1943741-298c-4fb1-9fb0-2fb7fc597cfc" />
 
 ---
