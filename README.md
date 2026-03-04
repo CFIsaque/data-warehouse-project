@@ -1,5 +1,5 @@
 # Data Warehouse Project
-This project demonstrates a comprehensive Data Warehouse with BigQuery, including ETL processes, data modeling and analytics.
+This project demonstrates a comprehensive Data Warehouse with BigQuery, including ELT processes, data modeling and analytics.
 
 ---
 
